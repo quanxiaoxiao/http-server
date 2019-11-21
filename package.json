@@ -1,0 +1,32 @@
+{
+  "name": "http-server",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "src/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quanxiaoxiao/http-server.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@quanxiaoxiao/about-http": "0.0.2",
+    "@quanxiaoxiao/api-parser": "0.0.3",
+    "koa": "^2.11.0",
+    "lodash": "^4.17.15",
+    "path-to-regexp": "^6.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
+  }
+}
