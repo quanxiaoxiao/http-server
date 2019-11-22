@@ -1,6 +1,6 @@
 {
   "name": "@quanxiaoxiao/http-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "keywords": [],
   "author": "",
@@ -14,8 +14,8 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@quanxiaoxiao/about-http": "0.0.2",
     "@quanxiaoxiao/api-parser": "0.0.3",
+    "@quanxiaoxiao/route-handler": "0.0.1",
     "koa": "^2.11.0",
     "lodash": "^4.17.15",
     "path-to-regexp": "^6.1.0"

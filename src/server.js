@@ -4,7 +4,7 @@ const Koa = require('koa');
 const fp = require('lodash/fp');
 const { pathToRegexp } = require('path-to-regexp');
 const apiParser = require('@quanxiaoxiao/api-parser');
-const handler = require('./handler');
+const routeHandler = require('@quanxiaoxiao/route-handler');
 
 module.exports = ({
   api,
@@ -44,7 +44,7 @@ module.exports = ({
       console.error(`pathname: ${routerItem.pathname} cant handle`);
       ctx.throw(500);
     }
-    await handler[handleName](routerItem[handleName])(ctx, next);
+    await routeHandler[handleName](routerItem[handleName])(ctx, next);
   });
 
 
