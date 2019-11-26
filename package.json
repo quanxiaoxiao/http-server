@@ -1,6 +1,6 @@
 {
   "name": "@quanxiaoxiao/http-server",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "keywords": [],
   "author": "",
@@ -14,16 +14,16 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@quanxiaoxiao/about-http": "0.0.4",
-    "@quanxiaoxiao/api-parser": "0.0.3",
-    "@quanxiaoxiao/route-handler": "0.0.2",
+    "@quanxiaoxiao/about-http": "0.0.5",
+    "@quanxiaoxiao/api-parser": "0.0.4",
+    "@quanxiaoxiao/route-handler": "0.0.3",
     "koa": "^2.11.0",
     "lodash": "^4.17.15",
     "path-to-regexp": "^6.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
