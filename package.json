@@ -1,6 +1,6 @@
 {
   "name": "@quanxiaoxiao/http-server",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "keywords": [],
   "author": "",
@@ -14,7 +14,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@quanxiaoxiao/about-http": "0.0.6",
+    "@quanxiaoxiao/about-http": "0.0.7",
     "@quanxiaoxiao/api-parser": "0.0.4",
     "@quanxiaoxiao/route-handler": "0.0.4",
     "koa": "^2.11.0",
