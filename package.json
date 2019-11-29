@@ -1,6 +1,6 @@
 {
   "name": "@quanxiaoxiao/http-server",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "",
   "keywords": [],
   "author": "",
@@ -10,12 +10,9 @@
     "type": "git",
     "url": "https://github.com/quanxiaoxiao/http-server.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "dependencies": {
     "@quanxiaoxiao/about-http": "0.0.8",
-    "@quanxiaoxiao/api-parser": "0.0.4",
+    "@quanxiaoxiao/api-parser": "0.0.5",
     "@quanxiaoxiao/route-handler": "0.0.7",
     "koa": "^2.11.0",
     "lodash": "^4.17.15",
